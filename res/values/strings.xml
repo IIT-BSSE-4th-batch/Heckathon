@@ -4,5 +4,6 @@
     <string name="app_name">Heckathon</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_my_activity1">MyActivity1</string>
 
 </resources>
