@@ -1,0 +1,203 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="@drawable/back"
+    android:layout_weight="1" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:shrinkColumns="*"
+    android:stretchColumns="*" >
+
+    <TableRow
+          android:id="@+id/tableRow6"
+          android:layout_height="wrap_content"
+          android:layout_width="match_parent">
+        
+        <Button 
+            android:id="@+id/current_time"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#ffffff"
+            android:text="Current Time"/>
+        
+        <Button
+        	android:id="@+id/tvTime"
+        	android:layout_width="match_parent"
+	        android:layout_height="fill_parent"
+	        android:text=""
+	        android:textColor="#ffffff"
+	        android:textAppearance="?android:attr/textAppearanceLarge" />
+	</TableRow>
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+           
+    	<Button
+	        android:id="@+id/btnChangeTime"
+	        android:layout_width="match_parent"
+	        android:layout_height="fill_parent"
+	        android:text="Change Time" 
+	        android:textColor="#ffffff" />
+            
+        <EditText android:id="@+id/edit_message"
+    		android:inputType="text"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:hint="@string/edit_message"
+    		android:textColor="#ffffff"
+    		android:layout_weight="1" />
+               	
+        <TimePicker
+	        android:id="@+id/timePicker1"
+	        android:layout_width="1dp"
+	        android:layout_height="fill_parent"	        
+	        android:visibility="invisible"/>
+   
+        
+         <EditText android:id="@+id/time"
+    		android:inputType="text"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:hint="@string/edit_message"
+    		android:textColor="#ffffff"
+    		android:layout_weight="1" />
+     </TableRow>
+                        
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        
+    	<Button
+	        android:id="@+id/btnChangeTime1"
+	        android:layout_width="match_parent"
+	        android:layout_height="fill_parent"
+	        android:textColor="#ffffff"
+	        android:text="Change Time" />
+            
+        <EditText android:id="@+id/edit_message1"
+    		android:inputType="text"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:hint="@string/edit_message"
+    		android:textColor="#ffffff"
+    		android:layout_weight="1" />
+               	
+        <TimePicker
+	        android:id="@+id/timePicker2"
+	        android:layout_width="1dp"
+	        android:layout_height="fill_parent" 
+	        android:visibility="invisible"/>
+        
+        <EditText android:id="@+id/time1"
+    		android:inputType="text"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:hint="@string/edit_message"
+    		android:layout_weight="1" />
+     </TableRow>
+   
+<TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        
+    	<Button
+	        android:id="@+id/btnChangeTime2"
+	        android:layout_width="match_parent"
+	        android:layout_height="fill_parent"
+	        android:textColor="#ffffff"
+	        android:text="Change Time" />
+            
+        <EditText android:id="@+id/edit_message2"
+    		android:inputType="text"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:hint="@string/edit_message"
+    		android:textColor="#ffffff"
+    		android:layout_weight="1" />
+               	
+        <TimePicker
+	        android:id="@+id/timePicker3"
+	        android:layout_width="1dp"
+	        android:layout_height="fill_parent" 
+	        android:visibility="invisible"/>
+        
+         <EditText android:id="@+id/time2"
+    		android:inputType="text"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:hint="@string/edit_message"
+    		android:textColor="#ffffff"
+    		android:layout_weight="1" />
+     </TableRow>
+    
+<TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        
+    	<Button
+	        android:id="@+id/btnChangeTime3"
+	        android:layout_width="match_parent"
+	        android:layout_height="fill_parent"
+	        android:textColor="#ffffff"
+	        android:text="Change Time" />
+            
+        <EditText android:id="@+id/edit_message3"
+    		android:inputType="text"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:hint="@string/edit_message"
+    		android:textColor="#ffffff"
+    		android:layout_weight="1" />
+               	
+        <TimePicker
+	        android:id="@+id/timePicker4"
+	        android:layout_width="1dp"
+	        android:layout_height="fill_parent" 
+	        android:visibility="invisible"/>
+        
+         <EditText android:id="@+id/time3"
+    		android:inputType="text"
+    		android:layout_width="wrap_content"
+    		android:layout_height="wrap_content"
+    		android:hint="@string/edit_message"
+    		android:textColor="#ffffff"
+    		android:layout_weight="1" />
+     </TableRow>
+
+<TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:gravity="center_horizontal">
+        
+    	<Button
+	        android:id="@+id/save"
+	        android:layout_width="match_parent"
+	        android:layout_height="fill_parent"
+	        android:textColor="#ffffff"
+	        android:text="Save All" />
+    	
+    	<Button
+	        android:id="@+id/delete"
+	        android:layout_width="match_parent"
+	        android:layout_height="fill_parent"
+	        android:textColor="#ffffff"
+	        android:text="Delete All" />
+</TableRow>
+
+                         
+									
+																										
+      </TableLayout>
+      
+
+      
+</ScrollView>
