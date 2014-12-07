@@ -1,0 +1,295 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="@drawable/back"
+    android:layout_weight="1" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*" >
+            
+                        <!-- Row 1 with single column -->
+                        
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal"
+                            android:padding="10dp">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp" 
+                                android:text="@string/heart_attack" 
+                                android:layout_span="3"
+                                android:padding="18dip"
+                                android:textColor="#ffffff"/>
+                       </TableRow>
+                        
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp" 
+                                android:text="@string/attack_symptom" 
+                                android:layout_span="3"
+                                android:padding="18dip"
+                                android:textColor="#ffffff"/>
+                       </TableRow>
+                        
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp" 
+                                android:text="@string/attack_cause" 
+                                android:layout_span="3"
+                                android:padding="18dip"
+                                android:textColor="#ffffff"/>
+                       </TableRow>                        
+                       
+                         <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp" 
+                                android:text="@string/heart_beat" 
+                                android:layout_span="3"
+                                android:padding="18dip"
+                                android:textColor="#ffffff"/>
+                       </TableRow>
+                        <!-- Row 2 with 3 columns -->
+                        <TableRow
+                            android:id="@+id/tableRow1"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/age"
+                                android:text="Age Range"
+                                android:layout_weight="1" 
+                                android:background="#642EFE"
+                                android:textColor="#ffffff"
+                                android:padding="7dip"
+                                android:gravity="center"/>
+                            
+                            <TextView
+                                android:id="@+id/bit_range"
+                                android:text="Beat Range(Per Minute)"
+                                android:layout_weight="1" 
+                                android:background="#8258FA"
+                                android:textColor="#ffffff"
+                                android:padding="7dip"
+                                android:gravity="center"/>
+                        </TableRow>
+                         
+
+						<TableRow
+                            android:id="@+id/tableRow2"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/fetus"
+                                android:text="@string/fetus"
+                                android:layout_weight="1" 
+                                android:background="#642EFE"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                            
+                            <TextView
+                                android:id="@+id/fetus_range"
+                                android:text="@string/fetus_range"
+                                android:layout_weight="1" 
+                                android:background="#8258FA"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                        </TableRow>
+
+						<TableRow
+                            android:id="@+id/tableRow3"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/one"
+                                android:text="@string/one"
+                                android:layout_weight="1" 
+                                android:background="#642EFE"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                            
+                            <TextView
+                                android:id="@+id/one_range"
+                                android:text="@string/one_range"
+                                android:layout_weight="1" 
+                                android:background="#8258FA"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                        </TableRow>
+						
+						<TableRow
+                            android:id="@+id/tableRow4"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/twelve"
+                                android:text="@string/twelve"
+                                android:layout_weight="1" 
+                                android:background="#642EFE"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                            
+                            <TextView
+                                android:id="@+id/twelve_range"
+                                android:text="@string/twelve_range"
+                                android:layout_weight="1" 
+                                android:background="#8258FA"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                        </TableRow>
+
+						<TableRow
+                            android:id="@+id/tableRow5"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/two"
+                                android:text="@string/two"
+                                android:layout_weight="1" 
+                                android:background="#642EFE"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                            
+                            <TextView
+                                android:id="@+id/two_range"
+                                android:text="@string/two_range"
+                                android:layout_weight="1" 
+                                android:background="#8258FA"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                        </TableRow>
+												
+						<TableRow
+                            android:id="@+id/tableRow6"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/four"
+                                android:text="@string/four"
+                                android:layout_weight="1" 
+                                android:background="#642EFE"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                            
+                            <TextView
+                                android:id="@+id/four_range"
+                                android:text="@string/four_range"
+                                android:layout_weight="1" 
+                                android:background="#8258FA"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                        </TableRow>
+						
+						<TableRow
+                            android:id="@+id/tableRow7"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/six"
+                                android:text="@string/six"
+                                android:layout_weight="1" 
+                                android:background="#642EFE"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                            
+                            <TextView
+                                android:id="@+id/six_range"
+                                android:text="@string/six_range"
+                                android:layout_weight="1" 
+                                android:background="#8258FA"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                        </TableRow>
+				
+						<TableRow
+                            android:id="@+id/tableRow8"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/nine"
+                                android:text="@string/nine"
+                                android:layout_weight="1" 
+                                android:background="#642EFE"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                            
+                            <TextView
+                                android:id="@+id/nine_range"
+                                android:text="@string/nine_range"
+                                android:layout_weight="1" 
+                                android:background="#8258FA"
+                                android:textColor="#ffffff"
+                                android:padding="3dip"
+                                android:gravity="center"/>
+                        </TableRow>	
+                        
+
+                       
+						<TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            <Button
+                                android:layout_width="match_parent"
+                                android:id="@+id/heart_beat"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp" 
+                                android:text="@string/link" 
+                                android:layout_span="3"
+                                android:padding="3dip"
+                                android:textColor="#ffffff" />
+                       </TableRow>
+						
+									
+																										
+      </TableLayout>
+      
+</ScrollView>

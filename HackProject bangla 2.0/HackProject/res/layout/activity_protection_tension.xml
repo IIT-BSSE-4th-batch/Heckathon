@@ -1,0 +1,107 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="@drawable/back"
+    android:layout_weight="1" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*" >
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:layout_gravity="center_horizontal"
+                android:text="“অতিরিক্ত টেনশন হার্টের জন্য ক্ষতিকর”" 
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="টেনশন কমানোর উপায়ঃ" 
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="১ টেনশন  না করা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="২ যথাসম্ভব টেনশন থেকে দূরে থাকা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৩ উত্তেজিত না হওয়া, মাথা ঠাণ্ডা রাখা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৪ বিনদন্মুলক অনুষ্ঠান দেখা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৫ ঘুরাফেরা করা, পার্কে বেরাতে যাওয়া" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৬ প্রয়োজনে ডাক্তারের পরামর্শ অনুযায়ী ওষুধ সেবন করা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+	   		
+	</TableLayout>
+  
+</ScrollView>

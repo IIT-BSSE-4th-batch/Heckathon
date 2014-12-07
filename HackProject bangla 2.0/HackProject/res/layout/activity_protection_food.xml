@@ -1,0 +1,174 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="@drawable/back"
+    android:layout_weight="1" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*" >
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:layout_gravity="center_horizontal"
+                android:text="“সুষম খাবার খান, হার্ট বাঁচান”" 
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+			</TableRow>
+	   		<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="যে খাবারগুলো খাবেনঃ" 
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="১ সবুজ শাঁক সবজি ও ফলমূল (সবুজ সালাদ, কচু জাতিও সবজি)" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="২ প্রাকৃতিক খাবার, যেমন ছোট মাছ " 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৩ ভিটামিন-সি সমৃদ্ধ খাবার " 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৪ ফরমালিন মুক্ত " 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+	    	<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="যে খাবারগুলো খাবেন নাঃ" 
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="১ কেক ও চকলেট জাতিও খাবার" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="২ ফ্রেঞ্ছ ফ্রাই (আলু ভাজি)" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৩ আইচ ক্রিম, চিপস" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৪ মাংস (বিশেষ করে গরুর ও হাঁসের মাংস) জাতিও খাবার" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৫ মিষ্টি জাতিও খাবার" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৬ যে কোন ফাস্ট ফুড" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+	</TableLayout>
+  
+</ScrollView>

@@ -1,0 +1,632 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="@drawable/back"
+    android:layout_weight="1" xmlns:android="http://schemas.android.com/apk/res/android">
+
+<TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*" >
+            
+                        <!-- Row 1 with single column -->
+                        
+                        <TableRow
+                            android:layout_height="wrap_content"
+                            android:layout_width="fill_parent"
+                            android:gravity="center_horizontal">
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:textSize="18sp" 
+                                android:text="এক নজরে বয়স বনাম ওজন" 
+                                android:layout_span="3"
+                                android:layout_gravity="center_horizontal"
+                                android:padding="18dip"
+                                android:textColor="#ffffff"/>
+                       </TableRow>
+                        
+                        
+                       
+                        <!-- Row 2 with 3 columns -->
+                        <TableRow
+                            android:id="@+id/tableRow1"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/height"
+                                android:layout_weight="1"
+                                android:layout_height="fill_parent"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:padding="10dip"
+                                android:text="উচ্চতা"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/weight_men"
+                            	android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="গড় ওজন (পুরুষ কেজি) "
+                                android:textColor="#ffffff" />
+
+                            <TextView
+                                android:id="@+id/weight_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="গড় ওজন (মহিলা কেজি)"
+                                android:textColor="#ffffff" />
+
+                        </TableRow>
+                         
+
+						<TableRow
+                            android:id="@+id/tableRow2"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h1"
+                                android:layout_weight="1"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:text="৪’ ৭”"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h1_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="--"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h1_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৪০-৫৩"
+                                android:textColor="#ffffff"/>
+                            
+                        </TableRow>
+
+						<TableRow
+                            android:id="@+id/tableRow3"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h2"
+                                android:layout_weight="1"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:text="৪’ ৯”"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h2_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="--"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h2_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৪২-৫৪"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+						
+						<TableRow
+                            android:id="@+id/tableRow4"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h3"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৪’ ১১”"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h3_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="--"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h3_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৪৩-৫৫"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+
+						<TableRow
+                            android:id="@+id/tableRow5"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h4"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫’ ১”"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h4_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="--"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h4_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৪৫-৫৮"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+												
+						<TableRow
+                            android:id="@+id/tableRow6"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h5"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫’ ২”	"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h5_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫১-৬৪"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h5_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৪৬-৫৯"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+						
+						<TableRow
+                            android:id="@+id/tableRow7"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h6"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫’ ৩”"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h6_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫৩-৬৬"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h6_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৪৯-৬২"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow8"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h7"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫’ ৪”"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h7_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫৪-৬৭"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h7_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫০-৬৪"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow9"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h8"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫’ ৫’’	"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h8_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫৫-৬৯"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h8_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫১-৬৫"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+                        <TableRow
+                            android:id="@+id/tableRow10"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h10"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫’ ৬’’"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h10_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫৬-৭১"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h10_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫২-৬৬"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+                        
+                        <TableRow
+                            android:id="@+id/tableRow11"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h11"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫’ ৭’’"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h11_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫৯-৭৪"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h11_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫৫-৬৯"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+                        
+                        <TableRow
+                            android:id="@+id/tableRow12"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h12"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫’ ৮’’	"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h12_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৬০-৭৫"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h12_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫৬-৭০"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+                        
+                        <TableRow
+                            android:id="@+id/tableRow13"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h13"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫’ ৯’’"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h13_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৬২-৭৭"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h13_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫৮-৭২"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+                        
+                        <TableRow
+                            android:id="@+id/tableRow14"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h14"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫’ ১০’’"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h14_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৬৪-৭৯"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h14_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫৯-৭৫"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+                        
+                        <TableRow
+                            android:id="@+id/tableRow15"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h15"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৫’ ১১’’"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h15_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৬৬-৮২"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h15_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="--"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+                        
+                        <TableRow
+                            android:id="@+id/tableRow16"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/h16"
+                                android:layout_weight="1"
+                                android:background="#642EFE"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৬’"
+                                android:textColor="#ffffff" />
+                            
+                            <TextView
+                                android:id="@+id/h16_men"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="৬৭-৮৪"
+                                android:textColor="#ffffff" />
+                            <TextView 
+                                android:id="@+id/h16_women"
+                                android:layout_weight="1"
+                                android:background="#8258FA"
+                                android:gravity="center"
+                                android:layout_height="fill_parent"
+                                android:padding="10dip"
+                                android:text="--"
+                                android:textColor="#ffffff"/>
+                        </TableRow>
+				
+						<TableRow
+                            android:id="@+id/tableRow100"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"
+                            android:layout_margin="1dp">
+                            
+                            <TextView
+                                android:id="@+id/nine"
+                                android:text="প্রাপ্ত বয়স্কদের জন্য প্রযোজ্য"
+                                android:layout_weight="1" 
+                                android:background="#642EFE"
+                                android:textColor="#ffffff"
+                                android:padding="20dip"
+                                android:gravity="center"/>
+                            
+                            
+                        </TableRow>	
+
+																										
+      </TableLayout>
+      
+</ScrollView>

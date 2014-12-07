@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	
+    <string name="heart_attack">
+        হার্ট অ্যাটাক কি ? – What is Heart Attack ? 
+        হার্ট অ্যাটাকের অর্থ হল হার্ট ঠিক মত কাজ না করা । আমাদের হৃদপিণ্ড ২৪ ঘন্টা কাজ করে । হৃদপিণ্ডের মাধ্যমেই অক্সিজেন ও পুষ্টিকর পদার্থ সারা শরীরে ছড়িয়ে পড়ে রক্তের মাধ্যমে ।
+        করোনারি আর্টারি নামে হৃৎপিন্ডের গায়ে ডান ও বাম পাশে দুটি ছোট ধমনী রয়েছে। এরাই হৃৎপিন্ডে পুষ্টির যোগান দেয়। যদি কোন কারনে এই করোনারি আর্টারিতে ( Coronary Artery )
+        ব্লক সৃষ্টি হয় তাহলে হৃদপিণ্ডে রক্তের পরিমাণ কমে যায় এবং তখন শরীরের প্রয়োজন মেটাতে হৃদপিণ্ড যথেষ্ট রক্ত শরীরে সরবারাহ করতে পারে না। এর ফলে হার্ট তার স্বাভাবিক কার্যক্রম হারিয়ে দুর্বল
+        হয়ে পরে এবং হার্ট অ্যাটাকের সৃষ্টি করে । চিকিৎসা বিজ্ঞানের ভাষায় একে “মাওকার্দিয়াল ইনফার্কশন” ( Myocardial Infarction ) বলা হয়। 
+        অনেক সময় এবং দিন ধরে রক্ত চলাচল বন্ধ থাকলে হার্টের একটি অংশের পেশী ক্ষতি অথবা ধ্বংস হয়ে যেতে পারে।
+    </string>
+    
+    <string name="attack_symptom">
+        হার্ট অ্যাটাকের লক্ষণ বা উপসর্গ কি কি?  – Symptoms of Heart Attack
+        সব হার্ট অ্যাটাক এক ধরনের নয়। কোন কোন হার্ট অ্যাটাক আকস্মিক ও তীব্র। তবে, অধিকাংশ হার্ট-অ্যাটাক হালকা ব্যথা বা অস্বস্তি লাগার অনুভূতিগুলো থেকেই শুরু হয়। কয়েকটি উপসর্গ ধীরে ধীরে প্রাণঘাতী আকারে রূপ নেয়। বেশির ভাগ মানুষই এ লক্ষণগুলোকে খুব একটা প্রাধান্য দেন না। আর যখন কেউ বুঝতে পারেন, ততোক্ষণে অনেক দেরি হয়ে যায়। ফেরার আর কোন পথ থাকে না। চিকিৎসকদের কাছে শুনতে হয়, আরেকটু আগে এলেই রোগীকে বাঁচানো যেতো। এখানে হার্ট অ্যাটাকে আক্রান্ত হওয়ার কিছু লক্ষণ তুলে ধরা হলো:
+
+        ১.বুকে প্রচন্ড ব্যাথা হবে। এরকম লাগতে পারেঃ
+ ২.হঠাৎ অনুভব করবেন ভারি কিছু একটা যেন বসে আছে আপনার বুকের উপর 
+ ৩.একটা ব্যাথার ব্যান্ড বুকের চারপাশে অনুভব করবেন
+ ৪.বুকের ব্যাথা মনে হবে যেন বুক চিপে ফেলছে
+ ৫.হজম হবে না পেটের উপরের অংশে জ্বালাপোড়া করবে
+
+এছাড়াও
+ ১.ছোট ছোট শ্বাস প্রশ্বাস
+২.ঘেমে যাওয়া
+৩.অজ্ঞান হয়ে যাওয়া
+৪.ঝাপসা দেখা
+৫.বমি, এসব হতে পারে
+        
+    </string>
+    
+    <string name="attack_cause">
+        হার্ট অ্যাটাকের কারণ কি কি ?
+
+বয়স  ( Age is the risk factor for heart attack ):  –  শতকরা  ৮৫ ভাগ হার্ট অ্যাটাক বয়সের কারণে হয়ে থাকে। The American Heart Association (AHA) মতে, একজন পুরুষের প্রথম হার্ট অ্যাটাকের জন্য গড় বয়স ৬৬ এবং মেয়েদের ৭০। তবে, মহিলাদের হার্ট অ্যাটাকের বয়স ৫৫ থেকে শুরু হয় এবং বয়স ৬৫ থেকে নারী ও পুরুষ যে কোন সময় হৃদরোগে আক্রান্ত হতে পারে।
+
+বুকে ব্যথা ( Angina ) – বুকে ব্যথা হার্ট অ্যাটাকের  অন্যতম কারণ। অনেক সময় বুকে ব্যথার কারণে  পর্যাপ্ত অক্সিজেন রোগীর হার্টে পৌঁছায় না। এর ফলে বুকে ব্যথা এবং অস্বস্তি বোধ করবে এবং একটি হালকা হার্ট অ্যাটাক হয়ে থাকতে পারে। হার্ট অ্যাটাক এবং বুকে ব্যথার মধ্যে মূল পার্থক্য হল,  বুকে ব্যথা রোগী ঔষধ খাওয়ার ১৫ থেকে ৩০ মিনিটের  মধ্যে  ভাল বোধ করবে কিন্তু হার্ট অ্যাটাকের রোগী করবে না।
+
+এছাড়াও যে সব কারণে হার্ট অ্যাটাক হয়ে থাকে…
+
+রক্তের কলেস্টেরলের মাত্রা বেশী হলে
+ডায়বেটিস
+অতিরিক্ত তেল এবং চর্বিযুক্ত খাবার
+হাইপারটেনশন (উচ্চ রক্তচাপ)
+স্থূলতা বা অতিরিক্ত ওজন
+অতিরিক্ত মদ্যপান
+ধুমপান
+শারীরিক জড়তা বা পরিশ্রম না করা
+মানসিক চাপ
+বংশগত
+এইচআইভি পজিটিভ
+অতিরিক্ত কোকেন জাতীয় ওষুধ গ্রহন করা
+
+    </string>
+
+    <string name="heart_beat">
+        আপনার হার্ট বিট স্বাভাবিক আছে কিনা তার জন্য নিছের টেবিল দেখুন।
+        
+    </string>
+    <string name="link">
+        আপনার হার্ট বিট মাপুন
+    </string>
+    <string name="app_name">HackProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">Green Heart</string>
+    <string name="title_activity_hospital">Hospital</string>
+    <string name="title_activity_location">Location</string>
+    <string name="title_activity_scheduler">Scheduler</string>
+    <string name="selectdate">Select Date</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete All</string>
+    <string name="edit_message">enter desc</string>
+    <string name="blood">Blood Pressure</string>
+    <string name="desc_table">আপনার রক্তের চাপ ঠিক আছে কিনা দেখুন</string>
+    <string name="desc_symptom_low">        those kind of symptom you will fell when you have a low heartbeat
+        &#8226;Fatigue\n 
+		&#8226;Dizziness\n
+		&#8226;Lightheadedness\n
+		&#8226; or near-fainting spells\n
+		&#8226;In extreme cases, cardiac arrest may occur\n</string>
+    <string name="age">&#8226; Age Range</string>
+    <string name="bit_range">Bit Range</string>
+    <string name="fetus">Fetus</string>
+    <string name="fetus_range">110 to 160</string>
+    <string name="one">0 t0 1 Month</string>
+    <string name="one_range">70 to 190</string>
+    <string name="twelve">2 to 12 Month</string>
+    <string name="twelve_range">80 to 160</string>
+    <string name="two">1 to 2 Year</string>
+    <string name="two_range">80 to 130</string>
+    <string name="four">3 to 4 Year</string>
+    <string name="four_range">80 to 120</string>
+    <string name="six">5 to 6 Year</string>
+    <string name="six_range">75 to 115</string>
+    <string name="nine">7 to 9 Year</string>
+    <string name="nine_range">70 to 110</string>
+    <string name="above">10 t0 Above</string>
+    <string name="above_range">60 to 100</string>
+    <string name="scheduler_title">Daily Scheduler</string>
+    <string name="alarm1">Alarm1 Time</string>
+    <string name="alarm1_desc">Alarm1 Desc</string>
+    <string name="alarm2">Alarm2 Time</string>
+    <string name="alarm2_desc">Alerm2 Desc</string>
+    <string name="alarm3">Alarm 3 Time</string>
+    <string name="alarm3_desc">Alarm 3 Desc</string>
+    <string name="alarm4">Alarm4 Time</string>
+    <string name="alarm4_desc">Alarm4 Desc</string>
+    <string name="title_activity_symptom">Symptom</string>
+    <string name="title_activity_prevention">Prevention</string>
+    <string name="title_activity_prevention_exercise">Prevention Exercise</string>
+    <string name="title_activity_prevention_food">Prevention Food</string>
+    <string name="title_activity_prevention_tension">Prevention Tension</string>
+    <string name="title_activity_prevention_weight">Prevention Weight</string>
+    <string name="title_activity_protection">Protection</string>
+    <string name="title_activity_protection_food">Protection Food</string>
+    <string name="title_activity_protection_exercise">Protection Exercise</string>
+    <string name="title_activity_protection_weight">Protection Weight</string>
+    <string name="title_activity_protection_tension">Protection Tension</string>
+    <string name="title_activity_reminder">Reminder</string>
+    <string name="title_activity_protection_smoke">ProtectionSmokeActivity</string>
+    <string name="title_activity_protection_sleep">ProtectionSleepActivity</string>
+    <string name="title_activity_protection_health_care">ProtectionHealthCareActivity</string>
+    <string name="title_activity_protection_alone_attack">ProtectionAloneAttackActivity</string>
+    <string name="title_activity_protection_sudden_attack">ProtectionSuddenAttackActivity</string>
+
+</resources>

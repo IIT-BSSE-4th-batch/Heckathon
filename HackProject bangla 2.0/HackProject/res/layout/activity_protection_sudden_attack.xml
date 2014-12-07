@@ -1,0 +1,78 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="@drawable/back"
+    android:layout_weight="1" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*" >
+
+	   		<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="হার্ট এটাক হয়েছে ধরতে পারলে কারও হার্ট অ্যাটাক এ যা করা উচিত:" 
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="১ রোগিকে তাৎখনিক এসপিরিন/ ওয়ারফেরিন জাতীয় ওষুধ খাইয়ে দেয়া ভাল। এতে রক্ত জমাট বাঁধা বন্ধ হবে।" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="২ জিহবার নিচে নাইট্রোগ্লিসারিন স্প্রে দিতে হবে।" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৩ ভিটামিন-সি সমৃদ্ধ খাবার " 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৩ রোগিকে আশ্বস্ত রাখা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+	    	
+	</TableLayout>
+  
+</ScrollView>

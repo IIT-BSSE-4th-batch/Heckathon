@@ -1,0 +1,84 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="@drawable/back"
+    android:layout_weight="1" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*" >
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:layout_gravity="center_horizontal"
+                android:text="“ব্যায়াম করুন, সুস্থ থাকুন”" 
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="১ নিয়মিত ১ ঘণ্টা হাটা অথবা জগিং করা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="২ সাতার কাটা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৩ সাইকেল চালানো" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৪ দরি লাফ" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৫ নিয়মিত খেলাধুলা করা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+	   		
+	</TableLayout>
+  
+</ScrollView>

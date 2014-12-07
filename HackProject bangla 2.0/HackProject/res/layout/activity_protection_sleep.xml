@@ -1,0 +1,96 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="@drawable/back"
+    android:layout_weight="1" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*" >
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:layout_gravity="center_horizontal"
+                android:text="“ঘুম মাথা থান্ডা রাখে”" 
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="ঘুমের জন্য কিছু টিপসঃ" 
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="১ নিয়মিত ঘুমাবেন (অন্তত ৬/৭ ঘণ্টা)" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="২ ভরে ঘুম থেকে উঠার অভ্যাস করা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৩ খুব বেশি রাত না জাগা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৪ দুপুরে/বিকালে কিছুক্ষণ ঘুমানো" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৫ খাবারের পর ঘুমিয়ে না পরে অন্তত ১০/১৫ মিনিত হাঁটা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+	   		
+	</TableLayout>
+  
+</ScrollView>

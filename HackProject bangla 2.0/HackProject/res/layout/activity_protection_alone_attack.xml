@@ -1,0 +1,109 @@
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:scrollbars="none"
+    android:background="@drawable/back"
+    android:layout_weight="1" xmlns:android="http://schemas.android.com/apk/res/android">
+    
+	<TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*" 
+            android:stretchColumns="*" >
+			<TableRow android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+			    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:layout_gravity="center_horizontal"
+                android:text="হার্ট এটাক হবার ফলে অধিকাংশ সময় মানুষ মারা যান, কারণ তারা একা থাকেন। অন্য কারো সাহায্য ছাড়া তাদের বুকের ওপর পাম্প করে হৃদযন্ত্রে রক্ত সঞ্চালন সম্ভব হয় না, এবং ব্যথা শুরু হবার পরে অজ্ঞান হয়ে যাবার আগ পর্যন্ত সাধারণত তাদের হাতে ১০ সেকেণ্ড সময় থাকে ।" 
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+			</TableRow>
+	   		<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="যে কাজগুলো করা উছিতঃ" 
+                android:layout_span="3"
+                android:padding="18dip"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:padding="10dip"
+                android:text="-এমতাবস্থায় বুকে ব্যথার শিকার ব্যক্তি নিজেকে সাহায্য করতে পারেন বারংবার জোরে জোরে উচ্চস্বরে কাশি দিয়ে।" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:padding="10dip"
+                android:text="- লম্বা করে শ্বাস নিন। এবার কাশুন। লম্বা সময় নিয়ে দীর্ঘ কাশি দিন। এর ফলে আপনার ফুসফুসে স্পাটাম/মিউকাস উৎপন্ন হবে।" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:padding="10dip"
+                android:text="- ‘শ্বাস – কাশি, শ্বাস – কাশি...’ এই প্রক্রিয়া প্রতি দুই সেকেণ্ডে একবার করে করতে থাকুন, যতক্ষণ না কেউ আপনার সাহায্যে এগিয়ে না আসে অথবা যতক্ষণ আপনার হৃদযন্ত্র একা একাই স্বাভাবিকভাবে স্পন্দিত হতে থাকে।" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			
+	    	<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                
+                android:text="- লম্বা করে শ্বাস নেবার ফলে আপনি পর্যাপ্ত অক্সিজেন পাবেন। আর কাশির ফলে আপনার হৃদযন্ত্র সংকোচন-প্রসারণ হবে যার ফলে আপনার হৃদপিণ্ডের ভিতর দিয়ে রক্ত সঞ্চালন প্রক্রিয়া অব্যাহত থাকবে।" 
+                android:layout_span="3"
+                android:padding="10dip"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			<TableRow
+				android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:gravity="center_horizontal">
+                <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:padding="10dip"
+                android:text="- এবং কয়েকবার কাশির ফলে উৎপন্ন সংকোচন-প্রসারণে হৃদযন্ত্রের স্বাভাবিক, স্বয়ংক্রিয় স্পন্দনে ফিরে আসার কথা। এরপরে অপর কোনো ব্যক্তির সাহায্যে আপনি হাসপাতালে পৌঁছতে পারবেন।" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+			</TableRow>
+			
+	</TableLayout>
+  
+</ScrollView>

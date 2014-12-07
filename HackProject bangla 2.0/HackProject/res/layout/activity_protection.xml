@@ -1,0 +1,116 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back"
+    tools:context="com.example.hackproject.ProtectionActivity" >
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:gravity="center_horizontal">
+        
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/protection_page" />
+
+    <TextView
+        android:id="@+id/textHospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="প্রতিকার"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Button
+            android:id="@+id/protectionFoodButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="সুষম খাদ্য" 
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/protectionExerciseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="শারিরিক ব্যায়াম" />
+
+        
+        <Button
+            android:id="@+id/protectionWeightButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="যথাযথ ওজন" />
+        
+        
+        <Button
+            android:id="@+id/protectionSmokeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="ধূমপান" />
+        
+            <Button
+            android:id="@+id/protectionSleepButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="যথাযথ ঘুম" 
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            />
+
+        <Button
+            android:id="@+id/protectionHealthButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="নিয়মিত শারিরিক চেকআপ" />
+
+        <Button
+            android:id="@+id/protectionTensionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="টেনশন কমানো" />
+        <Button
+            android:id="@+id/protectionAloneAttack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="একা থাকা অবস্থায় হার্ট অ্যাটাক  থেকে কিভাবে বাঁচবেন " />
+        
+        <Button
+            android:id="@+id/protectionSuddenAttack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="কারও হার্ট অ্যাটাক এ যা করা উচিত" />
+
+    </LinearLayout>
+    
+</RelativeLayout>
+</ScrollView>

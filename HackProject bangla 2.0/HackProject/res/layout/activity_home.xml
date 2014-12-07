@@ -1,0 +1,161 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp">
+
+        <ImageButton
+            android:id="@+id/imageButtonHeartBeat"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="60dp"
+            android:clickable="true"
+            android:onClick="measureHeartBeat"
+            android:src="@drawable/heart_beat" />
+
+        <ImageButton
+            android:id="@+id/imageButtonProtection"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="50dp"
+            android:clickable="true"
+            android:onClick="showProtection"
+            android:src="@drawable/protection1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/textHeartBeat"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:text="হার্ট বিট"
+            android:layout_marginLeft="60dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textProtection"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="3"
+            android:ems="10"
+            android:text="প্রতিকার"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <ImageButton
+            android:id="@+id/imagePrevention"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="60dp"
+            android:clickable="true"
+            android:onClick="showPrevention"
+            android:src="@drawable/prevention" />
+
+        <ImageButton
+            android:id="@+id/imageButtonSymptom"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="50dp"
+            android:clickable="true"
+            android:onClick="showSymptom"
+            android:src="@drawable/symptom2" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textPrevention"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:text="প্রতিরোধ"
+            android:layout_marginLeft="60dp"
+            android:textColor="#ffffff" />
+
+
+        <TextView
+            android:id="@+id/textSymptom"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:ems="10"
+            android:text="উপসর্গ"
+            android:layout_marginLeft="10dp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp">
+
+    <ImageButton
+        android:id="@+id/imageButtonHospital"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="60dp"
+        android:clickable="true"
+        android:onClick="showHospital"
+        android:src="@drawable/hospital" />
+
+        <ImageButton
+            android:id="@+id/imageButtonAlarm"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginLeft="50dp"
+            android:clickable="true"
+            android:onClick="showAlarm"
+            android:src="@drawable/alarm" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" >
+
+        <TextView
+            android:id="@+id/textHospital"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_weight="3"
+            android:ems="10"
+            android:text="হাসপাতাল"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textAlarm"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="3"
+            android:ems="10"
+            android:text="অ্যালার্ম"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</LinearLayout>

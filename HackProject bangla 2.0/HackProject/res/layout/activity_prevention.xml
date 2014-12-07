@@ -1,0 +1,190 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/back"
+    tools:context="com.example.hackproject.PreventionActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:gravity="center_horizontal">
+        
+        <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/prevention_page1" />
+
+    <TextView
+        android:id="@+id/textHospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="প্রতিরোধ"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="যে কাজগুলো করবেনঃ" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="১ ধুমপান না করা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="২ মাদক থেকে দূরে থাকা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৩ দুশ্চিন্তা না করা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৪ রক্তচাপ স্বাভাবিক রাখা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৫ ডায়াবেটিস নিয়ন্ত্রন" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৬ কলেস্টেরন নিয়ন্ত্রন" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৭ চর্বি জাতীয় খাদ্য কম খাওয়া" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৮ শাকসবজি – ফল বেশি খাওয়া" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="৯ দেহের অতিরিক্ত ওজন ঝেড়ে ফেলা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="১০ প্রতিদিন শারীরিক ব্যায়াম করা । অন্তত ৩০ মিনিট হাঁটা" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+    <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="18sp" 
+                android:text="১১ রেজিস্টার্ড ডাক্তারের পরামর্শ মতো ওষুধ খাওয়া" 
+                android:layout_span="3"
+                android:textColor="#ffffff"/>
+<!-- 
+        <Button
+            android:id="@+id/foodButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="সুষম খাদ্য" 
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/exerciseButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            android:text="শারিরিক ব্যায়াম" />
+
+        
+        <Button
+            android:id="@+id/weightButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="যথাযথ ওজন" />
+        
+        
+        <Button
+            android:id="@+id/smokeButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="ধূমপান" />
+        
+            <Button
+            android:id="@+id/sleepButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="যথাযথ ঘুম" 
+            android:textColor="#ffffff"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <Button
+            android:id="@+id/healthButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="নিয়মিত শারিরিক চেকআপ" />
+
+        
+        <Button
+            android:id="@+id/tensionButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:textColor="#ffffff"
+            android:text="টেনশন কমানো" />
+ -->        
+        
+        
+    </LinearLayout>
+
+    
+</RelativeLayout>
+</ScrollView>

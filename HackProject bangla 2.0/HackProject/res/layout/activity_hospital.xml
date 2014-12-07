@@ -1,0 +1,91 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/back">
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/hospital_page" />
+
+    <TextView
+        android:id="@+id/textHospital"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="নিচের হাসপাতালগুলোতে কল করার জন্য হাস্পাতালের নামে প্রেস করুন"
+        android:textColor="#ffffff"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/buttonHospital1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:onClick="callHospital1"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/buttonHospital2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:onClick="callHospital2"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/buttonHospital3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:onClick="callHospital3"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/buttonHospital4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:onClick="callHospital4"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/buttonHospital5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:onClick="callHospital5"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/buttonHospital6"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:onClick="callHospital6"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/buttonHospital7"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:onClick="callHospital7"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/buttonHospital8"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:onClick="callHospital8"
+        android:text="Button" />
+
+</LinearLayout>
+</ScrollView>
